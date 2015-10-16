@@ -2,7 +2,6 @@ from flask import Flask, jsonify
 from flask.globals import request
 import json
 import connectSmartDB
-import Sessions
 
 app = Flask(__name__)
 #app.session_interface = Sessions.RedisSessionInterface()
