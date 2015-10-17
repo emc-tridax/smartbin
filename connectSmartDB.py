@@ -4,7 +4,7 @@ import MySQLdb
 def connectBinDb():
     hostname = "127.0.0.1"
     username = "root"
-    password = ""
+    password = "password"
     dbName = "smartbin_db1"
     
     db = MySQLdb.connect(hostname,username,password, dbName)
